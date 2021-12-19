@@ -1,0 +1,23 @@
+@import "../libs/FontAweasome/fontello/css/fontello.css";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto:wght@400;700&display=swap');
+//font-family: 'Playfair Display', serif;
+//font-family: 'Roboto', sans-serif;
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+.container{
+  max-width: 1135px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@import "header";
+@import "first-screen";
+@import "footer";
+@import "media";

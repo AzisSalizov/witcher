@@ -1,0 +1,35 @@
+.footer{
+  padding: 20px 0;
+  background-color: #141218;
+  &__left{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__text{
+    font-family: Roboto sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF80;
+  }
+
+  &__menu{
+    display: flex;
+    column-gap: 25px;
+
+  }
+  &__list{
+    font-family: Roboto sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF80;
+  }
+}
+

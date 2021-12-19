@@ -1,0 +1,58 @@
+.header {
+  position: absolute;
+  width: 100%;
+  top: 60px;
+
+  &__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  &__left {
+    display: flex;
+    column-gap: 68px;
+    align-items: center;
+  }
+
+  &__menu {
+    display: flex;
+    column-gap: 24px;
+  }
+
+  &__list {
+    font-family: Roboto sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    transition: 0.5s;
+    cursor: pointer;
+
+    &:hover {
+      color: red;
+      transition: 0.5s;
+    }
+  }
+
+  &__right {
+    display: flex;
+    column-gap: 24.81px;
+
+  }
+
+  &__icon {
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: 0.5s;
+
+
+    &:hover {
+      color: red;
+      transition: 0.5s;
+    }
+  }
+
+}
